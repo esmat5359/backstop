@@ -1,6 +1,0 @@
-tests/direct (run in three foreground parts after the exact-agreement validation change):
-  part 1: test_adversarial, test_consensus, test_contest, test_smoke, test_text -> 1267 passed
-  part 2: test_lifecycle, test_policies, test_resolution                        ->  267 passed
-  part 3: test_fuzz                                                             ->   61 passed
-  total: 1595 passed, 0 failed
-genvm-lint check contracts/backstop.py -> passed (3 checks)
